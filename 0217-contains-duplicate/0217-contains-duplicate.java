@@ -3,7 +3,6 @@ class Solution {
         Set<Integer> mySet = new HashSet<>();
         for(int num:nums){
             if(mySet.contains(num)){
-                System.out.println("True");
                 return true;
             }
             else{
