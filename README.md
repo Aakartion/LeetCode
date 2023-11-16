@@ -1,2 +1,2 @@
-# LeetCode Solutions using LeetHub.
+# LeetCode Solutions
 Collection of LeetCode questions to ace the coding interview! - Created using LeetHub.
