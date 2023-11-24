@@ -1,19 +1,17 @@
 class Solution {
     public int climbStairs(int n) {
-            int one = 1;
-            int two = 2;
-            if(n==1){
-                return one;
-            }
-            if(n==2){
-                return 2;
-            }
-            int result = 0;
-            for(int i =0; i<n-2;i++){
-                result = one + two;
-                one = two;
-                two = result;
-            }
-            return result;
+        if(n == 1)
+            return 1;
+        if(n==2)
+            return 2;
+        int oneStep = 1;
+        int twoStep = 2;
+        int result = 0;
+        for(int i =1; i<n-1;i++){
+            result = oneStep + twoStep;
+            oneStep = twoStep;
+            twoStep = result;
+        }
+        return result;
     }
 }
