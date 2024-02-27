@@ -1,6 +1,6 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int buy = prices[0];
+       int buy = prices[0];
         int sell = buy;
         int diff = 0;
         for(int i=0; i<prices.length;i++){
@@ -14,6 +14,6 @@ class Solution {
             }
             
         }
-        return diff;
+        return diff; 
     }
 }
