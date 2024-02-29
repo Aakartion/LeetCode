@@ -17,6 +17,15 @@ public class ThreeLargestNumber {
             }
         }
 
+        int secondLargest = 0;
+        int secondLargestIndex = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > secondLargest && (array[i] <= firstLargest && firstLargestIndex != i)) {
+                secondLargest = array[i];
+                secondLargestIndex = i;
+            }
+        }
+
         System.out.println("This is first Largest " + firstLargest);
     }
 }
