@@ -26,6 +26,17 @@ public class ThreeLargestNumber {
             }
         }
 
+        int thirdLargest = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > thirdLargest
+                    && (array[i] <= secondLargest && array[i] <= firstLargest && secondLargestIndex != i
+                            && firstLargestIndex != i)) {
+                thirdLargest = array[i];
+            }
+        }
+
         System.out.println("This is first Largest " + firstLargest);
+        System.out.println("This is second Largest " + secondLargest);
+        System.out.println("This is third Largest " + thirdLargest);
     }
 }
