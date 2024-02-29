@@ -7,6 +7,16 @@ public class ThreeLargestNumber {
     }
 
     private static void getThreeLargestValues(int[] array) {
+        int firstLargest = 0;
+        int firstLargestIndex = -1;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > firstLargest) {
+                firstLargest = array[i];
+                firstLargestIndex = i;
 
+            }
+        }
+
+        System.out.println("This is first Largest " + firstLargest);
     }
 }
