@@ -11,9 +11,8 @@ class Solution {
         }
         List<Map.Entry<Integer, Integer>> entryList = new ArrayList<>(numMap.entrySet());
         Collections.sort(entryList, new Comparator<Map.Entry<Integer, Integer>>() {
-            @Override
             public int compare(Map.Entry<Integer, Integer> entry1, Map.Entry<Integer, Integer> entry2) {
-                return entry2.getValue() - entry1.getValue(); // Compare in descending order
+                return entry2.getValue() - entry1.getValue();
             }
         });
         
