@@ -13,7 +13,11 @@ class Solution {
             
             anagramMap.get(sortedString).add(str);
         }
-        return new ArrayList<>(anagramMap.values());
+        List<List<String>>result = new ArrayList<>();
+        for(List<String>list: anagramMap.values()){
+            result.add(list);
+        }
+        return result;
         
 }
 }
