@@ -2,11 +2,11 @@ class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> numMap = new HashMap<>();
         for (int num : nums) {
-            if (numMap.containsKey(num)) {
+            // if (numMap.containsKey(num)) {
                 numMap.put(num, numMap.getOrDefault(num, 0) + 1);
-            } else {
-                numMap.put(num, 1);
-            }
+            // } else {
+            //     numMap.put(num, 1);
+            // }
 
         }
         List<Map.Entry<Integer, Integer>> entryList = new ArrayList<>(numMap.entrySet());
