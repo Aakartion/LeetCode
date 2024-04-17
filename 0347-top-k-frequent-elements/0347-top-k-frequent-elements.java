@@ -2,10 +2,6 @@ class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> freqMap = new HashMap<>();
         for(int num: nums){
-            // if(!freqMap.containsKey(num)){
-            //     freqMap.put(num, 1);
-            // }
-            // freqMap.put(num, freqMap.get(num)+1);
             freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
         
