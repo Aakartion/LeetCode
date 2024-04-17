@@ -1,26 +1,39 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-//         Map<Integer, Integer> numMap = new HashMap<>();
-//         for (int num : nums) {
-//             // if (numMap.containsKey(num)) {
-//                 numMap.put(num, numMap.getOrDefault(num, 0) + 1);
-//             // } else {
-//             //     numMap.put(num, 1);
-//             // }
-
-//         }
-//         List<Map.Entry<Integer, Integer>> entryList = new ArrayList<>(numMap.entrySet());
-//         Collections.sort(entryList, new Comparator<Map.Entry<Integer, Integer>>() {
-//             public int compare(Map.Entry<Integer, Integer> entry1, Map.Entry<Integer, Integer> entry2) {
-//                 return entry2.getValue() - entry1.getValue();
+//         Map<Integer, Integer> freqMap = new HashMap<>();
+//         for(int num: nums){
+//             if(!freqMap.containsKey(num)){
+//                 freqMap.put(num, 1);
 //             }
-//         });
-        
-//         int[] result = new int[k];
-//         for (int i = 0; i < k; i++) {
-//             result[i] = entryList.get(i).getKey();
+//             freqMap.put(num, freqMap.get(num)+1);
 //         }
-//         return result;
+        
+//         List<Integer> [] bucket = new List[nums.length+1];
+//         for(int num: freqMap.keySet()){
+//             int index = freqMap.get(num);
+//             if(bucket[index]==null){
+//                 bucket[index] = new ArrayList<>();
+//             }
+//             bucket[index].add(num);
+//         }
+        
+//         int [] resultArray = new int [k];
+//         int index = 0;
+//         for(int i = bucket.length -1 ; i >= 0 && index<k; i--){
+//             if(bucket[i]!=null){
+//                 for(int num: bucket[i]){
+//                     resultArray[index] = num;
+//                     index++;
+//                     if(index == k){
+//                         break;
+//                     }
+//                 }
+                
+                
+//             }
+//         }
+//         return resultArray;
+        
         Map<Integer, Integer> numFrequencyMap = new HashMap<>();
         for (int num : nums) {
             numFrequencyMap.put(num, numFrequencyMap.getOrDefault(num, 0) + 1);
@@ -48,5 +61,6 @@ class Solution {
             }
         }
         return result;
+        
     }
 }
