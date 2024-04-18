@@ -16,8 +16,6 @@ class Solution {
             }
             
         }
-        System.out.println("This is totalProd:" + totalProd);
-        System.out.println("This is zeroCount:" + zeroCount);
         int [] result = new int[(nums.length)];
         if(zeroCount == 2){
             return result;
