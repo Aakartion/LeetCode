@@ -14,11 +14,7 @@ class Solution {
                 if((brace == ')' && braceStack.peek()=='(')||
                    (brace == '}' && braceStack.peek()=='{')||
                    (brace == ']' && braceStack.peek()=='[')){
-                    System.out.println("This is what is in the peek"+braceStack.peek());
-                    char popped = braceStack.pop();
-                    System.out.println("This is what is popped"+popped);
-                    
-                    // braceStack.pop();
+                    braceStack.pop();
                 }
                 else{
                     braceStack.push(brace);
