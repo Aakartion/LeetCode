@@ -27,7 +27,6 @@ class Solution {
                     leftSide++;
                 }
             }
-        
         }
         return false;
     }
