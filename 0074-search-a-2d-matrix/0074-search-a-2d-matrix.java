@@ -15,7 +15,6 @@ class Solution {
                     left = midRow + 1;
                 }
             }
-
         }
         return false;
     }
