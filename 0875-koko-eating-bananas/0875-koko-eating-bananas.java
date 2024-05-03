@@ -5,19 +5,19 @@ class Solution {
         int result = right;
         while(left<=right){
             int mid = (left + right)/2;
-            int tempCounter = 0;
+            int spentHour = 0;
             for(int pile:piles){
-                tempCounter = tempCounter + (int)Math.ceil((double)pile/mid);
-                if(tempCounter>h){
+                spentHour = spentHour + (int)Math.ceil((double)pile/mid);
+                if(spentHour>h){
                     left = mid + 1;
                     break;
                 }
             }
-            if(tempCounter <= h){
+            if(spentHour <= h){
                 right = mid - 1;
                 result = mid;
             }
-            if(result>tempCounter && tempCounter<=h){
+            if(result>spentHour && spentHour<=h){
                 result = mid;
             }
         }
