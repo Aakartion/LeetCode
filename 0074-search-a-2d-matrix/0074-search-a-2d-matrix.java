@@ -23,7 +23,6 @@ class Solution {
     private boolean binarySearch(int [][] matrix, int row, int target){
         int leftSide = 0;
         int rightSide = matrix[0].length-1;
-        System.out.println("Value is in this row: " + row);
         for(int i=0; i<matrix[0].length;i++ ){
             while(leftSide<=rightSide){
                 int mid = (leftSide + rightSide)/2;
