@@ -12,9 +12,6 @@ class Solution {
                 }
             }
             else {
-                System.out.println("Mid: " + nums[mid]);
-                System.out.println("Nums[left]: " + nums[left]);
-                
                 if(nums[left]<nums[mid] && nums[mid]<min){
                     min = nums[left];
                 }
