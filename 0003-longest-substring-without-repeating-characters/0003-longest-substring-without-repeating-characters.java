@@ -6,7 +6,7 @@ class Solution {
         
         Set<Character> stringContainer = new HashSet<>();
         char [] stringArray = s.toCharArray();
-        
+        System.out.println("Running");
         while (right < stringArray.length) {
             char currentChar = stringArray[right];
             if (!stringContainer.contains(currentChar)) {
