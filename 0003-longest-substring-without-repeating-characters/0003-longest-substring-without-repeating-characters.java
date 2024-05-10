@@ -3,10 +3,8 @@ class Solution {
         int left = 0;
         int right = 0;
         int result = 0;
-        
         Set<Character> stringContainer = new HashSet<>();
         char [] stringArray = s.toCharArray();
-        System.out.println("Running");
         while (right < stringArray.length) {
             char currentChar = stringArray[right];
             if (!stringContainer.contains(currentChar)) {
@@ -18,7 +16,6 @@ class Solution {
                 left++;
             }
         }
-        
         return result;
     }
 }
