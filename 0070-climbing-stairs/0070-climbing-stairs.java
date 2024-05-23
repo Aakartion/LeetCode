@@ -7,7 +7,7 @@ class Solution {
         int oneStep = 1;
         int twoStep = 2;
         int result = 0;
-        for(int i =1; i<n-1;i++){
+        for(int i =0; i<n-2;i++){
             result = oneStep + twoStep;
             oneStep = twoStep;
             twoStep = result;
