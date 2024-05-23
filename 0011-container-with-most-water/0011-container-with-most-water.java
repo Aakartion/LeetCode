@@ -16,8 +16,6 @@ class Solution {
                 area = height[right] * (right - left);
                 right --;
             }
-            
-
         }
         return result;
     }
