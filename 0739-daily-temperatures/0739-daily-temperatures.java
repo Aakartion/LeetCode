@@ -12,5 +12,4 @@ class Solution {
         }
          return result;
     }
-    
 }
