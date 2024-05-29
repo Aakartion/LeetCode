@@ -1,7 +1,6 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        
-        int totalProd = 1;
+         int totalProd = 1;
         int zeroCount = 0;
         for(int i = 0; i<nums.length;i++){
             if(nums[i]==0){
@@ -34,6 +33,5 @@ class Solution {
             }
         }
         return result;
-        
     }
 }
