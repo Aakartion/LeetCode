@@ -33,7 +33,6 @@ class Solution {
         
         int rootVal = postorder[postIndex];
         postIndex = postIndex - 1;
-        System.out.println("RootVal: => " + rootVal);
         
         
         TreeNode root = new TreeNode(rootVal);
