@@ -30,8 +30,10 @@ class Solution {
         if(inorderStart > inorderEnd){
             return null;
         }
-        int rootVal = postorder[postIndex--];
         
+        int rootVal = postorder[postIndex];
+        postIndex = postIndex - 1;
+        System.out.println("RootVal: => " + rootVal);
         
         
         TreeNode root = new TreeNode(rootVal);
