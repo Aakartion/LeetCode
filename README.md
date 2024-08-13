@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Aakartion/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [1119-robot-bounded-in-circle](https://github.com/Aakartion/LeetCode/tree/master/1119-robot-bounded-in-circle) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Aakartion/LeetCode/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## Simulation
@@ -19,5 +20,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Aakartion/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Aakartion/LeetCode/tree/master/1960-check-if-the-sentence-is-pangram) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Aakartion/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Aakartion/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
