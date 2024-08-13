@@ -4,9 +4,10 @@ class Solution {
         Set<Character> letters = new HashSet<>();
 
         for(char c: sentence.toLowerCase().toCharArray()){
-            if(ALPHABET.indexOf(c)!= -1){
-                letters.add(c);
-            }
+            letters.add(c);
+            // if(ALPHABET.indexOf(c)!= -1){
+            //     letters.add(c);
+            // }
         }
 
         for(char c: ALPHABET.toCharArray()){
