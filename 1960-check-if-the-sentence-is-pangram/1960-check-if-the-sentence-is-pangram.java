@@ -1,27 +1,11 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
-        // String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
-        Set<Character> letters = new HashSet<>();
-
-        // for(char c: sentence.toLowerCase().toCharArray()){
-        //     if(ALPHABET.indexOf(c)!= -1){
-        //         letters.add(c);
-        //     }
-        // }
-
-        // for(char c: ALPHABET.toCharArray()){
-        //     if(!letters.contains(c)){
-        //         return false;
-        //     }
-        // }
-
-        // return true;
-
-        for(char c: sentence.toCharArray()){
-            letters.add(c);
-            if(letters.size()==26){
-                return true;
-            }
+        Set<Character> pangramSet = new HashSet<>();
+        for(int i = 0; i< sentence.length();i++){
+            pangramSet.add(sentence.charAt(i));
+        }
+        if(pangramSet.size()==26){
+            return true;
         }
         return false;
     }
