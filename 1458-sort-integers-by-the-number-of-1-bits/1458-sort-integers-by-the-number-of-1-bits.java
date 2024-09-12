@@ -12,8 +12,10 @@ class Solution {
             Collections.sort(array);
             numsList.addAll(array);
         }
-        // int[] result = new int[numsList.size()];
-        int[] result = numsList.stream().mapToInt(Integer::intValue).toArray();
+        int[] result = new int[numsList.size()];
+        for (int i = 0; i < numsList.size(); i++) {
+            result[i] = numsList.get(i);
+        }
 
         return result;
     }
