@@ -7,7 +7,7 @@ public class ThreeLargestNumber {
     }
 
     private static void getThreeLargestValues(int[] array) {
-        int firstLargest = 0;
+        int firstLargest = array[0];
         int firstLargestIndex = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > firstLargest) {
@@ -17,8 +17,8 @@ public class ThreeLargestNumber {
             }
         }
 
-        int secondLargest = 0;
-        int secondLargestIndex = 0;
+        int secondLargest = array[0];
+        int secondLargestIndex = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > secondLargest && (array[i] <= firstLargest && firstLargestIndex != i)) {
                 secondLargest = array[i];
