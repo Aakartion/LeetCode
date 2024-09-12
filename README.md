@@ -33,11 +33,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Aakartion/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Aakartion/LeetCode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 ## Array
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Aakartion/LeetCode/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aakartion/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Aakartion/LeetCode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -50,4 +52,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0874-backspace-string-compare](https://github.com/Aakartion/LeetCode/tree/master/0874-backspace-string-compare) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Aakartion/LeetCode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+## Sorting
+|  |
+| ------- |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Aakartion/LeetCode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 <!---LeetCode Topics End-->
