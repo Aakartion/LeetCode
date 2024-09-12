@@ -5,14 +5,9 @@ class Solution {
         if(sCharWithoutHash.size()!=tCharWithoutHash.size()){
             return false;
         }
-        int length = sCharWithoutHash.size();
-        for(int i=0;i<length;i++){
-            if(sCharWithoutHash.peek()!=tCharWithoutHash.peek()){
+        while(!sCharWithoutHash.isEmpty()){
+            if(sCharWithoutHash.pop()!=tCharWithoutHash.pop()){
                 return false;
-            }
-            else{
-                sCharWithoutHash.pop();
-                tCharWithoutHash.pop();
             }
         }
         
